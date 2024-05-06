@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: white;
+    width: 320px;
+    height: 497px;
+    border-radius: 5%;
+    margin-top: 10%;
+    border: solid 1px black;
+}
+
+#containerImage {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
+    width: 288px;
+    height: 288px;
+}
+
+#containerImage img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+#containerTexts{
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit", "sans-serif";
+    width: 288px;
+    height: 129px;
+    margin-top: 8%;
+    align-items: center;
+}
+
+#headerText {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: 0;
+    width: 288px;
+    height: 56px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#cardText {
+    font-weight: 400;
+    text-align: center;
+    color:hsl(220, 15%, 55%);
+    width: 256px;
+    height: 57px;
+    margin-top: 6%;
+}
+
+#containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    font-family: "Outfit";
+}
